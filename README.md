@@ -1,12 +1,22 @@
+# Task Management App
 
-In the project directory, you can run:
+## Description
+This is a task management web application that allows users to sign up, log in, and manage tasks efficiently. The app provides an intuitive UI with authentication, drag-and-drop task organization, and multiple viewing modes.
 
-### `npm start`
+## Features
+- User authentication using Firebase (Email/Password & Google Sign-In).  
+- Task creation, editing, deletion, and sorting.  
+- Drag-and-drop functionality for task management.  
+- Switch between list and board views for better organization.  
+- Responsive UI with smooth animations using Framer Motion.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+### Install Dependencies  
+Run the following command to install the required npm packages:  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install react firebase framer-motion @hello-pangea/dnd lucide-react
 
+## Start the development server with:
+npm start
+Then, open http://localhost:3000 in your browser.
 
