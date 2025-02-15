@@ -1,0 +1,162 @@
+/* login page */
+body{
+  background-color: rgb(197, 215, 221) !important;
+}
+#rfc{
+  position: relative;top: 85px;
+}
+#fg{
+  position: relative; top: 150px;
+}
+.fb{
+  width: 60%;
+  height: 500px;
+  border-radius: 30px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+}
+.ft{
+  height: 100px;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.f{
+  position: relative;top: 40px;
+}
+.fc{
+  height: 300px;
+  background-color: white;
+}
+.ff{
+  height: 100px;
+  background-color: cadetblue;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width:500px) {
+  #rfc{
+    position: relative;top: 50px;
+  }
+  #fg{
+    position: relative; top: 0px;
+    text-align: center;
+  }
+  .fb{
+    width: 80%;
+    height: 400px;
+    position: relative; top: 30px;
+  }
+  .ft{
+    height: 70px;
+  }
+  .f{
+    position: relative;top: 20px;
+  }
+  .fc{
+    height: 260px;
+  }
+  .ff{
+    height: 70px;
+  }
+}
+
+/* Task management */
+.task-container {
+  position: relative;top: 45px;
+  padding: 24px;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.user-email {
+  font-weight: bold;
+}
+
+.sign-out {
+  background: black;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.task-controls {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.task-input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn.purple { background: purple; color: white; }
+.btn.gray { background: gray; color: white; }
+.btn.blue { background: blue; color: white; }
+.btn.red { background: red; color: white; }
+.btn.green { background: green; color: white; }
+
+.task-category {
+  background: #f9f9f9;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.category-title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.task-text {
+  flex-grow: 1;
+}
+
+.edit-task {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.edit-input,
+.edit-select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
